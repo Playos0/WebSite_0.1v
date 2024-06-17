@@ -1,0 +1,212 @@
+body{
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Readex Pro', sans-serif;
+}
+.con{
+    width: 70%;
+    margin: 10px auto auto auto;
+    background-color: rgba(255, 255, 255, 0.04);
+    border-radius: 50px;
+    border-left: solid rgba(255, 255, 255, 0.5) 5px;
+    border-right: solid rgba(255, 255, 255, 0.5) 5px;
+    height: 2450px;
+    box-shadow: #005187 0 0 15px 2px, #00253d  0 0 55px 4px ;
+    
+}
+nav{
+    width: 1100px;
+    margin: auto;
+}
+.inf_start{
+    height: auto;
+    width: auto;
+    color: #BBBBBB;
+}
+.blok_if_l{
+    width: 90%;
+    margin: auto;
+    border: rgba(255, 255, 255, 0.1) 10px  solid;
+    height: 400px;
+}
+.blok_if_r{
+    width: 90%;
+    margin: auto;
+    border: rgba(255, 255, 255, 0.1) 10px  solid ;
+    height: 400px;
+}
+
+.blok_if_l img{
+    width: 530px;
+    height: 270px;
+    margin: 0;
+    border-radius: 10px;
+    margin-top: 40px;
+    box-shadow: black 5px 7px 5px 1px;
+}
+.blok_if_r img{
+    width: 530px;
+    height: 270px;
+    margin-left: 89px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: black 5px 7px 5px 1px;
+}
+.blok_if_l h4{
+    float: right;
+    width: 50%;
+    margin-top: 40px;
+}
+.blok_if_r h4{
+    width: 40%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+h1{
+    color: #BBBBBB;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+hr{
+    width: 75%;
+    height: 500px;
+    opacity: 1;
+    margin: auto;
+    background: #1A2980;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 20px;
+}
+footer{
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+}
+.row{
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    color: #BBBBBB;
+}
+.row .card{
+    background-color: rgba(0, 0, 0, 0);
+    border: rgba(255, 255, 255, 0.5) 6px  solid;
+    border-radius: 10px;
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+.row .card a{
+    background-color: #16222A;
+    border: #BBBBBB solid 1px;
+}
+/*opisy samochodów w divach sam*/
+
+.sam{
+    width: 60%;
+    margin: auto;
+    float: left;
+}
+
+#carouselExampleIndicators{
+    width: 750px;
+    height: auto;
+    margin: auto;
+    margin-right: 600px;
+    box-shadow: black 5px 7px 5px 1px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+#carouselExampleIndicators img{
+    border-radius: 10px;
+    height: 450px;
+
+}
+.tabela_sam{
+    border: rgba(255, 255, 255, 0.5) 6px  solid;
+    background-color: #16222A;
+    height: 450px;
+    width: 34%;
+    float: right;
+    margin-right: 50px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+table{
+    width: 100%; 
+    color: #BBBBBB;
+}
+.tabela_sam table td{
+    width: 50%;
+    height: auto;
+}
+.tabela_sam table hr{
+    margin: 5px auto 5px auto ;
+}
+.tabela_wyp{
+    float: left;
+    width: 92.5%;
+    margin-left: 50px;
+    margin-top: 25px;
+    border: rgba(255, 255, 255, 0.5) 6px  solid;
+    background-color: #16222A;
+    border-radius: 10px;
+    padding: 10px;
+}
+.tabela_wyp th{
+    color: whitesmoke;
+}
+.tabela_wyp td{
+    width: 16%;
+    padding: 10px;
+    font-size: 12px;
+}
+.kontakt{
+    background-color: #16222A;
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    border-radius: 10px;
+    border: rgba(255, 255, 255, 0.5) 6px  solid;
+}
+.kontakt form{
+    color: #BBBBBB; 
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+}
+.in{
+    width: 150px;
+    height: 50px;
+    color: #BBBBBB;
+    font-weight: bolder;
+    background-color:  #00385c ;
+    border: rgba(255, 255, 255, 0.5) 4px  solid;
+    border-radius: 10px;
+
+}
+.in:active{
+    background-color: #00253d;
+    border: rgba(255, 255, 255, 0.1) 4px  solid;
+    transition-duration: 0.09s;
+}
+input{
+    border-radius: 5px;
+    margin-top: 4px;
+    border:  #005187 3px  solid;
+    color: #BBBBBB;
+    background-color: #00385c ;
+}
+textarea{
+    border:  #005187 3px  solid;
+    color: #BBBBBB;
+    background-color: #00385c ;
+    border-radius: 2px;
+}
+
+
